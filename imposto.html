@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
+    <link rel="stylesheet" href="assets/src/css/style.css">
+    <title>ProjetoWeb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+    <body>
+    <header class="menu_principal">
+        <logoff class="logoff">
+            <a href="welcome.html">logoff</a>
+        </logoff>
+        <main>
+            <div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="home.html">Home</a>
+                        </li>
+                        <li>
+                            Compra
+                            <ul style="z-index: 1;">
+                                <li><a href="item.html">item</a></li>
+                                <li><a href="compra.html">Compra</a></li>
+                                <li><a href="estoque.html">Estoque</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            Venda
+                            <ul style="z-index: 1;">
+                                <li><a href="item.html">Item</a></li>
+                                <li><a href="venda.html">Venda</a></li>
+                                <li><a href="estoque.html">Estoque</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="imposto.html">Imposto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+    <div class="body_text">
+        Aqui explicaremos um pouco dos calculos realizados.<br>
+        No lucro presumido, o nível de detalhamento das declarações é menor que o lucro real mas ainda sim é necessário um pouco do esforço do contribuinte.<br>
+        Nele, é adotado o regime cumulativo, aonde as alíquotas de PIS/COFINS são menores, sendo elas de 3,00 % e 0,65%. Contúdo, nesse regime, não são gerados créditos de impostos na venda de produtos, apenas é deduzido na compra. No lucro real é tributado com os valores do PIS/COFINS de 7,6% e 1,65% na compra, contudo o mesmo é recebido de crédito na venda, assim, compensando parte dos gastos.
+    </div>
+    <div class="date_title">
+        <div class="date_content">
+            &#160 Escolha a data:
+            <input type="date" id="data" name="data" style="border: none;">
+        </div>
+    </div>
+    <div class="input-group mb-3" style="width: 800px; margin: auto;">
+        <div class="sub_title2">
+            &#160LUCRO REAL (TOTAL): R$0,00
+        </div>
+        <div class="sub_title2">
+            &#160Lucro presumido: R$0,00
+        </div>
+    </div>
+    <div class="input-group mb-3" style="width: 800px; margin: auto;">
+        <div class="sub_title2">
+            &#160Debitos (pago): R$0,00
+        </div>
+        <div class="sub_title2">
+            &#160Debitos (pago): R$0,00
+        </div>
+    </div>
+    <div style="width: 735px; margin: auto;">
+        <div style="width: 350px; border: black 1px solid;">
+            &#160Credito (recebido): R$0,00
+        </div>
+    </div>
+    
+</body>
+</html>
