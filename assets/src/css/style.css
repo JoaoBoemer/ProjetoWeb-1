@@ -18,11 +18,8 @@
     background-color: red;
     border-radius: 10px;
     text-decoration: none;
-    margin-left: 15%;
     color:black;
-    position: relative;
-    padding: 5px;
-    width: 90%;
+    padding: 3px;
 }
 
 .welcome{
